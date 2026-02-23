@@ -56,7 +56,7 @@ Example output:
 </string>
 
 <string name="app_name_native">
-  example_value
+  examplevalue
 </string>
 🛠 Configuration Format
 
