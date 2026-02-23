@@ -1,0 +1,20 @@
+{
+  "name": "@modulehub/expo-custom-strings",
+  "version": "1.0.0",
+  "main": "app.plugin.js",
+  "types": "build/withCustomStrings.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "files": ["app.plugin.js", "build", "README.md"],
+  "license": "MIT",
+  "keywords": ["expo", "expo-config-plugin"],
+  "peerDependencies": {
+    "expo": "*"
+  },
+  "devDependencies": {
+    "@expo/config-plugins": "*",
+    "typescript": "~5.3.0"
+  }
+}

@@ -1,0 +1,33 @@
+# Dependencies
+node_modules/
+
+# Build output
+build/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Logs and debug
+*.log
+npm-debug.log*
+.pnpm-debug.log*
+
+# Env and secrets (safety)
+.env
+.env.*
+!.env.example
+
+# Test / coverage (if added later)
+coverage/
+.nyc_output/
+*.lcov
+
+# Optional: keep local link installs out of version control
+*.tgz
