@@ -28,7 +28,7 @@ pnpm install
             "moduleConfig": true
           },
           "app_name_native": {
-            "value": "FoodHub"
+            "value": "value"
           }
         }
       ]
@@ -56,7 +56,7 @@ Example output:
 </string>
 
 <string name="app_name_native">
-  FoodHub
+  example_value
 </string>
 🛠 Configuration Format
 
